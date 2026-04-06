@@ -1,10 +1,10 @@
 export const aboutMeData = [
 	{
 		id: 1,
-		bio: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+		bio: 'Sou Desenvolvedor Full Stack com foco em backend Python, especializado na construção de APIs REST escaláveis com Django e FastAPI. Tenho experiência na integração entre frontend (React/Next.js) e backend, além de trabalhar com bancos de dados relacionais como PostgreSQL, MySQL e SQLite. Atuo com versionamento em Git, Docker e ambientes Linux, sempre buscando performance, segurança e organização de código.',
 	},
 	{
 		id: 2,
-		bio: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+		bio: 'Minha trajetória une desenvolvimento e suporte técnico, o que me dá visão completa do sistema: do usuário final à infraestrutura. Já desenvolvi sistemas reais como plataformas SaaS e sistemas de chamados, aplicando boas práticas de arquitetura, automação e escalabilidade. Estou em constante evolução, com foco em me consolidar como desenvolvedor backend Python, trabalhando com APIs, automações e sistemas robustos para produção.',
 	},
 ];

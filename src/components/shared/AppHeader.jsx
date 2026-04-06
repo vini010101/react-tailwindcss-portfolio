@@ -158,13 +158,7 @@ const AppHeader = () => {
 				{/* Header right section buttons */}
 				<div className="hidden sm:flex justify-between items-center flex-col md:flex-row">
 					<div className="hidden md:flex">
-						<span
-							onClick={showHireMeModal}
-							className="text-md font-general-medium bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-md px-5 py-2.5 duration-300"
-							aria-label="Hire Me Button"
-						>
-							<Button title="Hire Me" />
-						</span>
+						
 					</div>
 
 					{/* Theme switcher large screen */}
@@ -182,15 +176,7 @@ const AppHeader = () => {
 				</div>
 			</div>
 			{/* Hire me modal */}
-			<div>
-				{showModal ? (
-					<HireMeModal
-						onClose={showHireMeModal}
-						onRequest={showHireMeModal}
-					/>
-				) : null}
-				{showModal ? showHireMeModal : null}
-			</div>
+		
 		</motion.nav>
 	);
 };
