@@ -5,7 +5,7 @@ function AppFooterCopyright() {
 				&copy; {new Date().getFullYear()}
 				<a
 					href="https://www.linkedin.com/in/vinicius-moura-5700b6240/"
-					target="__blank"
+					target="_blank" rel="noopener noreferrer"
 					className="hover:underline hover:text-indigo-600 dark:hover:text-indigo-300 ml-1 duration-500"
 				>
 					Portfolio
@@ -13,7 +13,7 @@ function AppFooterCopyright() {
 				.
 				<a
 					href="https://www.linkedin.com/in/vinicius-moura-5700b6240/"
-					target="__blank"
+					target="_blank" rel="noopener noreferrer"
 					className="text-secondary-dark dark:text-secondary-light font-medium uppercase hover:underline hover:text-indigo-600 dark:hover:text-indigo-300 ml-1 duration-500"
 				>
 					Vinicius Moura

@@ -20,19 +20,25 @@ const ProjectInfo = () => {
 										className="font-general-regular text-ternary-dark dark:text-ternary-light"
 										key={info.id}
 									>
-										<span>{info.title}: </span>
+										{info.title === 'Website' || info.title === 'Phone' ? (
 										<a
-											href="https://www.linkedin.com/in/vinicius-moura-5700b6240/"
-											className={
-												info.title === 'Website' ||
+											href={
 												info.title === 'Phone'
-													? 'hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300'
-													: ''
+												? `tel:${info.details}`
+												: info.details.startsWith('http')
+												? info.details
+												: `https://${info.details}`
 											}
-											aria-label="Project Website and Phone"
-										>
+											target="_blank"
+											rel="noopener noreferrer"
+											className="hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300"
+											aria-label="Project Website or Phone"
+											>
 											{info.details}
 										</a>
+										) : (
+										<span>{info.details}</span>
+										)}
 									</li>
 								);
 							}
@@ -74,7 +80,7 @@ const ProjectInfo = () => {
 									<a
 										key={social.id}
 										href={social.url}
-										target="__blank"
+										target="_blank" rel="noopener noreferrer"
 										aria-label="Share Project"
 										className="bg-ternary-light dark:bg-ternary-dark text-gray-400 hover:text-primary-dark dark:hover:text-primary-light p-2 rounded-lg shadow-sm duration-500"
 									>
