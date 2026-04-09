@@ -22,7 +22,7 @@ const ProjectInfo = () => {
 									>
 										<span>{info.title}: </span>
 										<a
-											
+											href="https://www.linkedin.com/in/vinicius-moura-5700b6240/"
 											className={
 												info.title === 'Website' ||
 												info.title === 'Phone'
