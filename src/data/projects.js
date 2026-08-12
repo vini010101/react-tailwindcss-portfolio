@@ -3,7 +3,7 @@ import Dashboard from '../images/dashboard_diario_obras.png';
 export const projectsData = [
 	{
 		id: 1,
-		title: 'Diário de Obras Pro',
+		title: 'E-Tech RDO Pro',
 		category: 'SaaS',
 		img: Dashboard,
 		ProjectHeader: {

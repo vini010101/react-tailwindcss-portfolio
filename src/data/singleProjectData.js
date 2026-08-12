@@ -13,7 +13,7 @@ import {
 
 export const singleProjectData = {
 	ProjectHeader: {
-		title: 'Diário de Obras Pro',
+		title: 'E-Tech RDO Pro',
 		publishDate: '2025',
 		tags: 'SaaS / Full Stack',
 	},
